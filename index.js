@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 
 app.get("/hello", (req, res) => {
     res.render("index", {
-        mensagem: "Hello, Cognum!"
+        mensage: "Hello, Cognum!"
     })
 });
 
